@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e09588b40e914204c8e28de560102fe6, type: 3}
+  m_Name: Phase0
+  m_EditorClassIdentifier: 
+  phase:
+  - enemies: 040000000000000000000000000000000000000000000000
+    spawnDelay: 0.3
+  - enemies: 020000000100000000000000000000000000000000000000
+    spawnDelay: 0.3
+  - enemies: 010000000100000000000000000000000000000000000000
+    spawnDelay: 0.3
+  - enemies: 000000000200000000000000000000000000000000000000
+    spawnDelay: 0.3
+  - enemies: 030000000000000000000000000000000000000000000000
+    spawnDelay: 0.3
+  - enemies: 020000000000000000000000000000000000000000000000
+    spawnDelay: 0.3
+  - enemies: 000000000100000000000000000000000000000000000000
+    spawnDelay: 0.3

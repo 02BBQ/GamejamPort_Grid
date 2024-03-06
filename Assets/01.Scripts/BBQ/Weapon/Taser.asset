@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfc5d897e0f88d4f89b02c4e9ade132, type: 3}
+  m_Name: Taser
+  m_EditorClassIdentifier: 
+  name: "\uD14C\uC774\uC800\uAC74"
+  description: "\uC801\uC744 \uACF5\uACA9\uD558\uBA74 \uADF8 \uC801\uC744 \uAE30\uC900\uC73C\uB85C
+    \uAC00\uAE4C\uC6B4 \uC801\uC744 \uACF5\uACA9\uD569\uB2C8\uB2E4!"
+  hitbox:
+  - {x: 0, y: 1}
+  - {x: 0, y: 2}
+  baseDamage: 2
+  coolDown: 1.35
+  effect: {fileID: 6523988042315192751, guid: bf15ce223a2df9947951a010a6f16e78, type: 3}
+  shakePower: 1.5
+  attackSound: {fileID: 8300000, guid: 6ef2bbe8383106145979cbeead7fd87d, type: 3}
+  Chain: 2
